@@ -1,0 +1,36 @@
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.deps.json
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.AssemblyReference.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfoInputs.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfo.cs
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.CoreCompileInputs.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\refint\DeviceSdkDemo.Device.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.pdb
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\ref\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.deps.json
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.AssemblyReference.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfoInputs.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfo.cs
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\refint\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\ref\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.deps.json
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.AssemblyReference.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfoInputs.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.AssemblyInfo.cs
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\refint\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Device\obj\Debug\net6.0\ref\DeviceSdkDemo.Device.dll

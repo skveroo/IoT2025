@@ -1,0 +1,5 @@
+C:\Users\Maciej\source\repos\AzureAgent\AzureAgent\obj\Debug\net6.0\AzureAgent.console.csproj.AssemblyReference.cache
+C:\Users\Maciej\source\repos\AzureAgent\AzureAgent\obj\Debug\net6.0\AzureAgent.console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maciej\source\repos\AzureAgent\AzureAgent\obj\Debug\net6.0\AzureAgent.console.AssemblyInfoInputs.cache
+C:\Users\Maciej\source\repos\AzureAgent\AzureAgent\obj\Debug\net6.0\AzureAgent.console.AssemblyInfo.cs
+C:\Users\Maciej\source\repos\AzureAgent\AzureAgent\obj\Debug\net6.0\AzureAgent.console.csproj.CoreCompileInputs.cache

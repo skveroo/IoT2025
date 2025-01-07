@@ -1,0 +1,236 @@
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.exe
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.deps.json
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.runtimeconfig.json
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.pdb
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Buffers.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.Mqtt.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Common.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Handlers.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Transport.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Client.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Shared.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.AssemblyReference.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfoInputs.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfo.cs
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.CoreCompileInputs.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.CopyComplete
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\refint\DeviceSdkDemo.Console.dll
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.pdb
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.genruntimeconfig.cache
+D:\Projects\Azure\iothub-device-sdk\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\ref\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.exe
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.deps.json
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.runtimeconfig.json
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.pdb
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Buffers.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.Mqtt.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Handlers.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Transport.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Client.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Shared.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\MS.TF.Pipelines.WebApi.NetStandard.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.DevOps.Comments.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Pipelines.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Build2.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Core.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Dashboards.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Policy.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.SourceControl.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Test.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.TestManagement.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Wiki.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Work.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.TestManagement.TestPlanning.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.TestResults.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Client.Interactive.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.UaFx.Advanced.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.UaFx.Client.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Client.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Configuration.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Core.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Gds.Client.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Gds.Server.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Security.Certificates.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Server.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Management.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.ServiceModel.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.AssemblyReference.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfoInputs.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfo.cs
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSd.444D2422.Up2Date
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\refint\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.pdb
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.genruntimeconfig.cache
+C:\Users\Maciej\Desktop\Nowy folder (2)\z2_devSdkDemo\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\ref\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.exe
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.deps.json
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.runtimeconfig.json
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Console.pdb
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Buffers.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Codecs.Mqtt.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Handlers.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DotNetty.Transport.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Amqp.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Client.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Devices.Shared.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\MS.TF.Pipelines.WebApi.NetStandard.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.DevOps.Comments.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Azure.Pipelines.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Build2.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Core.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Dashboards.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Policy.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.SourceControl.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Test.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.TestManagement.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Wiki.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Work.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.TestManagement.TestPlanning.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.TestResults.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.TeamFoundation.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.WebApi.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.VisualStudio.Services.Client.Interactive.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.UaFx.Advanced.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.UaFx.Client.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Client.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Configuration.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Core.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Gds.Client.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Gds.Server.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Security.Certificates.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Opc.Ua.Server.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Management.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.ServiceModel.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\bin\Debug\net6.0\DeviceSdkDemo.Device.pdb
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.AssemblyReference.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfoInputs.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.AssemblyInfo.cs
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.csproj.CoreCompileInputs.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSd.444D2422.Up2Date
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\refint\DeviceSdkDemo.Console.dll
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.pdb
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\DeviceSdkDemo.Console.genruntimeconfig.cache
+C:\Users\Maciej\Desktop\DeviceSdkDemo (Ex1)\DeviceSdkDemo.Console\obj\Debug\net6.0\ref\DeviceSdkDemo.Console.dll
