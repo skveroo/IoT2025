@@ -1,0 +1,10 @@
+server addres:
+opc.tcp://localhost:4840/
+
+device connection string:
+HostName=ProjektIoT25.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=OkdZqG6dcNVS2kKz/C+S+a8v75Wiqk9goAIoTDrLd6Q=
+
+devices:
+Device
+Device1
+Device2

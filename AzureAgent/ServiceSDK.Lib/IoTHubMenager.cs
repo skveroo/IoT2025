@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.Devices;
+using Microsoft.Rest;
 using Newtonsoft.Json;
 
 namespace ServiceSDK.Lib
@@ -44,5 +45,22 @@ namespace ServiceSDK.Lib
             twin.Properties.Desired[propertyName] = propertyValue;
             await registry.UpdateTwinAsync(twin.DeviceId, twin, twin.ETag);
         }
+        public async Task Disconnect()
+        {
+            if (client != null)
+            {
+                await client.CloseAsync();
+                client.Dispose();
+            }
+
+            if (registry != null)
+            {
+                await registry.CloseAsync();
+                registry.Dispose();
+
+                Console.WriteLine("Disconnected from IoT Hub.");
+            }
+        }
+
     }
 }

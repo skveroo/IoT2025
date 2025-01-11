@@ -1,10 +1,12 @@
-﻿using Microsoft.Azure.Devices.Common.Exceptions;
+﻿using Microsoft.Azure.Devices;
+using Microsoft.Azure.Devices.Common.Exceptions;
 using Opc.UaFx;
 using Opc.UaFx.Client;
 using System;
 
 namespace ServiceSdkDemo.Console
 {
+    
     internal static class FeatureSelector
     {
         public static void PrintMenu()
@@ -14,30 +16,25 @@ namespace ServiceSdkDemo.Console
     2 - Direct Method
     3 - Device Twin
     4 - Display Telemetry Data
+    5 - Disconnect from device
     0 - Exit");
         }
 
-        public static async Task Execute(int feature, ServiceSDK.Lib.IoTHubManager manager)
+        public static async Task Execute(int feature, ServiceSDK.Lib.IoTHubManager manager, string deviceId,int id)
         {
             switch (feature)
             {
                 case 1:
                     {
                         System.Console.WriteLine("\nType your message (confirm with enter):");
+                        System.Console.WriteLine($"{deviceId}");
                         string messageText = System.Console.ReadLine() ?? string.Empty;
-
-                        System.Console.WriteLine("Type your device ID (confirm with enter):");
-                        string deviceId = System.Console.ReadLine() ?? string.Empty;
-
                         await manager.SendMessage(messageText, deviceId);
-
                         System.Console.WriteLine("Message sent!");
                     }
                     break;
                 case 2:
                     {
-                        System.Console.WriteLine("\nType your device ID (confirm with enter):");
-                        string deviceId = System.Console.ReadLine() ?? string.Empty;
                         try
                         {
                             var result = await manager.ExecuteDeviceMethod("SendMessages", deviceId);
@@ -53,49 +50,68 @@ namespace ServiceSdkDemo.Console
                     {
                         System.Console.WriteLine("\nType property name (confirm with enter):");
                         string propertyName = System.Console.ReadLine() ?? string.Empty;
-
-                        System.Console.WriteLine("\nType your device ID (confirm with enter):");
-                        string deviceId = System.Console.ReadLine() ?? string.Empty;
-
                         var random = new Random();
                         await manager.UpdateDesiredTwin(deviceId, propertyName, random.Next());
                     }
                     break;
                 case 4:
                     {
-                        using var opcClient = new OpcClient("opc.tcp://localhost:4840");
+                        using (var client = new OpcClient("opc.tcp://localhost:4840/"))
+                        {
+                            string deviceNumber= $"Device {id}";
+                            
+                            client.Connect();
+                            System.Console.WriteLine();
+                            OpcReadNode[] nodeAttributes = new OpcReadNode[] {
+                            new OpcReadNode($"ns=2;s={deviceNumber}/ProductionStatus", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/ProductionRate", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/WorkorderId", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/Temperature", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/GoodCount", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/BadCount", OpcAttribute.DisplayName),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/DeviceError", OpcAttribute.DisplayName),
+};
+                            OpcReadNode[] nodeValues = new OpcReadNode[] {
+                            new OpcReadNode($"ns=2;s={deviceNumber}/ProductionStatus"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/ProductionRate"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/WorkorderId"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/Temperature"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/GoodCount"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/BadCount"),
+                            new OpcReadNode($"ns=2;s={deviceNumber}/DeviceError"),
+};
 
-                        try
-                        {
-                            opcClient.Connect();
-                            System.Console.WriteLine("");
-                            System.Console.WriteLine("Connected to OPC server.");
+                            IEnumerable<OpcValue> attributeResults = client.ReadNodes(nodeAttributes);
+                            IEnumerable<OpcValue> valueResults = client.ReadNodes(nodeValues);
+                            var combinedResults = attributeResults.Zip(valueResults, (attribute, value) => new { Attribute = attribute.Value, Value = value.Value });
+                            foreach (var item in combinedResults)
+                            {
+                                System.Console.WriteLine($"{item.Attribute}: {item.Value}");
+                            }
                         }
-                        catch (Exception ex)
-                        {
-                            System.Console.WriteLine($"Failed to connect to OPC server: {ex.Message}");
-                            return;
-                        }
-
-                        var rootNode = opcClient.BrowseNode(OpcObjectTypes.ObjectsFolder);
-                        foreach (var node in rootNode.Children())
-                        {
-                            System.Console.WriteLine($"Node found: {node.DisplayName} - {node.NodeId}");
-                        }
-
-                        var deviceNode = rootNode.Children().FirstOrDefault(n => n.DisplayName == "device");
-                        if (deviceNode != null)
-                        {
-                            DisplayNodeData(opcClient, deviceNode);
-                        }
-                        else
-                        {
-                            System.Console.WriteLine("Device folder not found.");
-                        }
+                    }
+                    break;
+                case 5:
+                    {
+                        
+                        System.Console.WriteLine("\nDisconnecting...");
+                        await Task.Delay(2000);
+                        System.Console.Clear();
+                        await manager.Disconnect();
+                        RestartProgram();
                     }
                     break;
                 default:
                     break;
+            }
+        }
+        private static void RestartProgram()
+        {
+            string fileName = System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName;
+            if (fileName != null)
+            {
+                System.Diagnostics.Process.Start(fileName);
+                Environment.Exit(0);
             }
         }
 

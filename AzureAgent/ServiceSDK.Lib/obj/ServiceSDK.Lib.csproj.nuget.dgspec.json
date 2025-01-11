@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maciej\\Desktop\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {}
+    "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maciej\\Desktop\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {
+    "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maciej\\Desktop\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
+        "projectUniqueName": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
         "projectName": "ServiceSDK.Lib",
-        "projectPath": "C:\\Users\\Maciej\\Desktop\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
+        "projectPath": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
         "packagesPath": "C:\\Users\\Maciej\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maciej\\Desktop\\AzureAgent\\ServiceSDK.Lib\\obj\\",
+        "outputPath": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,9 +42,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net6.0": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
