@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiceSDK.Lib
-build_property.ProjectDir = C:\Users\Maciej\Desktop\Nowy folder (3)\IoT2025-main\AzureAgent\ServiceSDK.Lib\
+build_property.ProjectDir = C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

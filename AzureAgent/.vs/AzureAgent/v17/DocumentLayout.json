@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\",
+  "WorkspaceRootPath": "C:\\Clones\\IoT2025\\AzureAgent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|c:\\users\\maciej\\desktop\\nowy folder (3)\\iot2025-main\\azureagent\\azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|c:\\users\\maciej\\desktop\\nowy folder (3)\\iot2025-main\\azureagent\\azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|c:\\clones\\iot2025\\azureagent\\azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1418E045-610B-4294-9899-11ECAE7C25E9}|ServiceSDK.Lib\\ServiceSDK.Lib.csproj|c:\\users\\maciej\\desktop\\nowy folder (3)\\iot2025-main\\azureagent\\servicesdk.lib\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|c:\\clones\\iot2025\\azureagent\\azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1418E045-610B-4294-9899-11ECAE7C25E9}|ServiceSDK.Lib\\ServiceSDK.Lib.csproj|c:\\clones\\iot2025\\azureagent\\servicesdk.lib\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1418E045-610B-4294-9899-11ECAE7C25E9}|ServiceSDK.Lib\\ServiceSDK.Lib.csproj|solutionrelative:servicesdk.lib\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IoTHubMenager.cs",
-              "DocumentMoniker": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\IoTHubMenager.cs",
+              "DocumentMoniker": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\IoTHubMenager.cs",
               "RelativeDocumentMoniker": "ServiceSDK.Lib\\IoTHubMenager.cs",
-              "ToolTip": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\IoTHubMenager.cs",
+              "ToolTip": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\IoTHubMenager.cs",
               "RelativeToolTip": "ServiceSDK.Lib\\IoTHubMenager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:44:22.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FeatureSelector.cs",
-              "DocumentMoniker": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
+              "DocumentMoniker": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
               "RelativeDocumentMoniker": "AzureAgent\\FeatureSelector.cs",
-              "ToolTip": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
+              "ToolTip": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
               "RelativeToolTip": "AzureAgent\\FeatureSelector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:43:11.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\AzureAgent\\Program.cs",
+              "DocumentMoniker": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\Program.cs",
               "RelativeDocumentMoniker": "AzureAgent\\Program.cs",
-              "ToolTip": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\AzureAgent\\Program.cs",
+              "ToolTip": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\Program.cs",
               "RelativeToolTip": "AzureAgent\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:07:54.824Z",
               "EditorCaption": ""

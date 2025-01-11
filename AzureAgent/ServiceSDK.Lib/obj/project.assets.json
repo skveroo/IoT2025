@@ -2549,11 +2549,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
+      "projectUniqueName": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
       "projectName": "ServiceSDK.Lib",
-      "projectPath": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
+      "projectPath": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
       "packagesPath": "C:\\Users\\Maciej\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maciej\\Desktop\\Nowy folder (3)\\IoT2025-main\\AzureAgent\\ServiceSDK.Lib\\obj\\",
+      "outputPath": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
