@@ -25,6 +25,148 @@
           }
         }
       },
+      "Azure.Storage.Blobs/12.19.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Common": "12.18.1",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.18.1": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Core": "1.36.0",
+          "System.IO.Hashing": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Storage.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Buffers/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "DotNetty.Common": "0.7.6",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Buffers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Buffers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Codecs/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Codecs.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Codecs.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Codecs.Mqtt/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Codecs": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Codecs.Mqtt.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Codecs.Mqtt.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Common/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Handlers/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Codecs": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Handlers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Handlers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DotNetty.Transport/0.7.6": {
+        "type": "package",
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Common": "0.7.6"
+        },
+        "compile": {
+          "lib/net6.0/DotNetty.Transport.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Transport.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Azure.Amqp/2.6.9": {
         "type": "package",
         "compile": {
@@ -56,6 +198,30 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.Azure.Devices.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Azure.Devices.Client/1.42.3": {
+        "type": "package",
+        "dependencies": {
+          "Azure.Storage.Blobs": "12.19.1",
+          "DotNetty.Codecs.Mqtt": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Handlers": "0.7.6",
+          "Microsoft.Azure.Amqp": "2.5.12",
+          "Microsoft.Azure.Devices.Shared": "1.30.4",
+          "Microsoft.Win32.Registry": "4.5.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Azure.Devices.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Azure.Devices.Client.dll": {
             "related": ".xml"
           }
         }
@@ -97,6 +263,97 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -262,6 +519,33 @@
           }
         }
       },
+      "System.Collections.Immutable/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -363,6 +647,22 @@
           "ref/netstandard1.5/_._": {
             "related": ".xml"
           }
+        }
+      },
+      "System.IO.Hashing/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Management/4.7.0": {
@@ -556,6 +856,23 @@
           }
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Security.Principal.Windows/4.7.0": {
         "type": "package",
         "compile": {
@@ -727,6 +1044,158 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
+    "Azure.Storage.Blobs/12.19.1": {
+      "sha512": "x43hWFJ4sPQ23TD4piCwT+KlQpZT8pNDAzqj6yUCqh+WJ2qcQa17e1gh6ZOeT2QNFQTTDSuR56fm2bIV7i11/w==",
+      "type": "package",
+      "path": "azure.storage.blobs/12.19.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.blobs.12.19.1.nupkg.sha512",
+        "azure.storage.blobs.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Blobs.dll",
+        "lib/net6.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.0/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.0/Azure.Storage.Blobs.xml",
+        "lib/netstandard2.1/Azure.Storage.Blobs.dll",
+        "lib/netstandard2.1/Azure.Storage.Blobs.xml"
+      ]
+    },
+    "Azure.Storage.Common/12.18.1": {
+      "sha512": "ohCslqP9yDKIn+DVjBEOBuieB1QwsUCz+BwHYNaJ3lcIsTSiI4Evnq81HcKe8CqM8qvdModbipVQKpnxpbdWqA==",
+      "type": "package",
+      "path": "azure.storage.common/12.18.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGELOG.md",
+        "README.md",
+        "azure.storage.common.12.18.1.nupkg.sha512",
+        "azure.storage.common.nuspec",
+        "azureicon.png",
+        "lib/net6.0/Azure.Storage.Common.dll",
+        "lib/net6.0/Azure.Storage.Common.xml",
+        "lib/netstandard2.0/Azure.Storage.Common.dll",
+        "lib/netstandard2.0/Azure.Storage.Common.xml"
+      ]
+    },
+    "DotNetty.Buffers/0.7.6": {
+      "sha512": "JVYypDugRG4m3hbS0drCC79vX93zqjn5w+U4ti/KXjTIzcQ/UVHrCgs7ZgJfWRUQLfgfQB0daYQtE18lKD8pHg==",
+      "type": "package",
+      "path": "dotnetty.buffers/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.buffers.0.7.6.nupkg.sha512",
+        "dotnetty.buffers.nuspec",
+        "lib/net472/DotNetty.Buffers.dll",
+        "lib/net472/DotNetty.Buffers.xml",
+        "lib/net5.0/DotNetty.Buffers.dll",
+        "lib/net5.0/DotNetty.Buffers.xml",
+        "lib/net6.0/DotNetty.Buffers.dll",
+        "lib/net6.0/DotNetty.Buffers.xml",
+        "lib/netstandard2.0/DotNetty.Buffers.dll",
+        "lib/netstandard2.0/DotNetty.Buffers.xml"
+      ]
+    },
+    "DotNetty.Codecs/0.7.6": {
+      "sha512": "XBZy/m3+V8PBUHHHbFKaRBE0+knTCitcE8oKCQn4jZybH25mCZ1vTwj3BRuPYdNpzh74Op32Hj4ZXF+DMx/oAg==",
+      "type": "package",
+      "path": "dotnetty.codecs/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.codecs.0.7.6.nupkg.sha512",
+        "dotnetty.codecs.nuspec",
+        "lib/net472/DotNetty.Codecs.dll",
+        "lib/net472/DotNetty.Codecs.xml",
+        "lib/net5.0/DotNetty.Codecs.dll",
+        "lib/net5.0/DotNetty.Codecs.xml",
+        "lib/net6.0/DotNetty.Codecs.dll",
+        "lib/net6.0/DotNetty.Codecs.xml",
+        "lib/netstandard2.0/DotNetty.Codecs.dll",
+        "lib/netstandard2.0/DotNetty.Codecs.xml"
+      ]
+    },
+    "DotNetty.Codecs.Mqtt/0.7.6": {
+      "sha512": "jVynN2g/HXPlaT+zZwdJENaB0Aw28iV7ZvttAXy0i1ST7MB3olKxTTy5tq2QuI4z4wFzMHx/+15znq06AcyIAw==",
+      "type": "package",
+      "path": "dotnetty.codecs.mqtt/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.codecs.mqtt.0.7.6.nupkg.sha512",
+        "dotnetty.codecs.mqtt.nuspec",
+        "lib/net472/DotNetty.Codecs.Mqtt.dll",
+        "lib/net472/DotNetty.Codecs.Mqtt.xml",
+        "lib/net5.0/DotNetty.Codecs.Mqtt.dll",
+        "lib/net5.0/DotNetty.Codecs.Mqtt.xml",
+        "lib/net6.0/DotNetty.Codecs.Mqtt.dll",
+        "lib/net6.0/DotNetty.Codecs.Mqtt.xml",
+        "lib/netstandard2.0/DotNetty.Codecs.Mqtt.dll",
+        "lib/netstandard2.0/DotNetty.Codecs.Mqtt.xml"
+      ]
+    },
+    "DotNetty.Common/0.7.6": {
+      "sha512": "dmK8Njfh2Y4qnz99lLK0evoc46FPL5WOnHMLlavNZ6zqC5/bKgqGsJFoXbhVPkSYDp58g2euI64dhY0cvOUOZQ==",
+      "type": "package",
+      "path": "dotnetty.common/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.common.0.7.6.nupkg.sha512",
+        "dotnetty.common.nuspec",
+        "lib/net472/DotNetty.Common.dll",
+        "lib/net472/DotNetty.Common.xml",
+        "lib/net5.0/DotNetty.Common.dll",
+        "lib/net5.0/DotNetty.Common.xml",
+        "lib/net6.0/DotNetty.Common.dll",
+        "lib/net6.0/DotNetty.Common.xml",
+        "lib/netstandard2.0/DotNetty.Common.dll",
+        "lib/netstandard2.0/DotNetty.Common.xml"
+      ]
+    },
+    "DotNetty.Handlers/0.7.6": {
+      "sha512": "6sSMp0Md8DbpyOAV9IjiR30uzaLrxAbJTcwFFpMJM1+EJhvPz6Ywt0RqoV6+lseq6zqBjMq2jbPTKcqPoqNYIA==",
+      "type": "package",
+      "path": "dotnetty.handlers/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.handlers.0.7.6.nupkg.sha512",
+        "dotnetty.handlers.nuspec",
+        "lib/net472/DotNetty.Handlers.dll",
+        "lib/net472/DotNetty.Handlers.xml",
+        "lib/net5.0/DotNetty.Handlers.dll",
+        "lib/net5.0/DotNetty.Handlers.xml",
+        "lib/net6.0/DotNetty.Handlers.dll",
+        "lib/net6.0/DotNetty.Handlers.xml",
+        "lib/netstandard2.0/DotNetty.Handlers.dll",
+        "lib/netstandard2.0/DotNetty.Handlers.xml"
+      ]
+    },
+    "DotNetty.Transport/0.7.6": {
+      "sha512": "EVQ5FihFPdWmw7v6l/4iyMepj49vZT11kWQNJ0ApC4KzkdJJ6LM/7NDUgghyxbO0e25nfQRtkGLP5EZAEo7QDA==",
+      "type": "package",
+      "path": "dotnetty.transport/0.7.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetty.transport.0.7.6.nupkg.sha512",
+        "dotnetty.transport.nuspec",
+        "lib/net472/DotNetty.Transport.dll",
+        "lib/net472/DotNetty.Transport.xml",
+        "lib/net5.0/DotNetty.Transport.dll",
+        "lib/net5.0/DotNetty.Transport.xml",
+        "lib/net6.0/DotNetty.Transport.dll",
+        "lib/net6.0/DotNetty.Transport.xml",
+        "lib/netstandard2.0/DotNetty.Transport.dll",
+        "lib/netstandard2.0/DotNetty.Transport.xml"
+      ]
+    },
     "Microsoft.Azure.Amqp/2.6.9": {
       "sha512": "5i9XzfqxK1H5IBl+OuOV1jwJdrOvi5RUwsZgVOryZm0GCzcM9NWPNRxzPAbsSeaR2T6+1gGvdT3vR+Vbha6KFQ==",
       "type": "package",
@@ -767,6 +1236,27 @@
         "lib/netstandard2.1/Microsoft.Azure.Devices.xml",
         "microsoft.azure.devices.1.40.0.nupkg.sha512",
         "microsoft.azure.devices.nuspec",
+        "nugetIcon.png"
+      ]
+    },
+    "Microsoft.Azure.Devices.Client/1.42.3": {
+      "sha512": "U0u26o1Bc/h+Qq3AHek82BfUabkPie3eWtCqHFxDT9y0TIm/ZkdX2nNRYqkdfjexQEewUJXetfDRXKxR9gXY4g==",
+      "type": "package",
+      "path": "microsoft.azure.devices.client/1.42.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net472/Microsoft.Azure.Devices.Client.dll",
+        "lib/net472/Microsoft.Azure.Devices.Client.xml",
+        "lib/net6.0/Microsoft.Azure.Devices.Client.dll",
+        "lib/net6.0/Microsoft.Azure.Devices.Client.xml",
+        "lib/netstandard2.0/Microsoft.Azure.Devices.Client.dll",
+        "lib/netstandard2.0/Microsoft.Azure.Devices.Client.xml",
+        "lib/netstandard2.1/Microsoft.Azure.Devices.Client.dll",
+        "lib/netstandard2.1/Microsoft.Azure.Devices.Client.xml",
+        "microsoft.azure.devices.client.1.42.3.nupkg.sha512",
+        "microsoft.azure.devices.client.nuspec",
         "nugetIcon.png"
       ]
     },
@@ -877,6 +1367,136 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "sha512": "Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "sha512": "MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.dll",
+        "lib/net461/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "sha512": "NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "sha512": "CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/net5.0/Microsoft.Extensions.Options.dll",
+        "lib/net5.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.5.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1168,6 +1788,50 @@
         "ref/xamarinwatchos10/_._",
         "system.collections.4.3.0.nupkg.sha512",
         "system.collections.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "type": "package",
+      "path": "system.collections.immutable/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.5.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.4.1": {
+      "sha512": "jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.4.1.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
@@ -1511,6 +2175,29 @@
         "ref/xamarinwatchos10/_._",
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
+      ]
+    },
+    "System.IO.Hashing/6.0.0": {
+      "sha512": "Rfm2jYCaUeGysFEZjDe7j1R4x6Z6BzumS/vUT5a1AA/AWJuGX71PoGB0RmpyX3VmrGqVnAwtfMn39OHR8Y/5+g==",
+      "type": "package",
+      "path": "system.io.hashing/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.IO.Hashing.dll",
+        "lib/net461/System.IO.Hashing.xml",
+        "lib/net6.0/System.IO.Hashing.dll",
+        "lib/net6.0/System.IO.Hashing.xml",
+        "lib/netstandard2.0/System.IO.Hashing.dll",
+        "lib/netstandard2.0/System.IO.Hashing.xml",
+        "system.io.hashing.6.0.0.nupkg.sha512",
+        "system.io.hashing.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Management/4.7.0": {
@@ -2118,6 +2805,47 @@
         "version.txt"
       ]
     },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.Principal.Windows/4.7.0": {
       "sha512": "ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "type": "package",
@@ -2558,6 +3286,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.Azure.Devices >= 1.40.0",
+      "Microsoft.Azure.Devices.Client >= 1.42.3",
       "Opc.UaFx.Client >= 2.42.5",
       "ServiceSDK.Lib >= 1.0.0"
     ]
@@ -2618,6 +3347,10 @@
           "Microsoft.Azure.Devices": {
             "target": "Package",
             "version": "[1.40.0, )"
+          },
+          "Microsoft.Azure.Devices.Client": {
+            "target": "Package",
+            "version": "[1.42.3, )"
           },
           "Opc.UaFx.Client": {
             "target": "Package",

@@ -22,3 +22,16 @@ C:\Users\Maciej\Desktop\Nowy folder (3)\IoT2025-main\AzureAgent\ServiceSDK.Lib\o
 C:\Users\Maciej\Desktop\Nowy folder (3)\IoT2025-main\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\refint\ServiceSDK.Lib.dll
 C:\Users\Maciej\Desktop\Nowy folder (3)\IoT2025-main\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.pdb
 C:\Users\Maciej\Desktop\Nowy folder (3)\IoT2025-main\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ref\ServiceSDK.Lib.dll
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\bin\Debug\net6.0\ServiceSDK.Lib.deps.json
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\bin\Debug\net6.0\ServiceSDK.Lib.dll
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\bin\Debug\net6.0\ServiceSDK.Lib.pdb
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.csproj.AssemblyReference.cache
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.AssemblyInfoInputs.cache
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.AssemblyInfo.cs
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.csproj.CoreCompileInputs.cache
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.sourcelink.json
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.dll
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\refint\ServiceSDK.Lib.dll
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ServiceSDK.Lib.pdb
+C:\Clones\IoT2025\AzureAgent\ServiceSDK.Lib\obj\Debug\net6.0\ref\ServiceSDK.Lib.dll

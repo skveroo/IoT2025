@@ -5,6 +5,6 @@ device connection string:
 HostName=ProjektIoT25.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=
 
 devices:
-Device
-Device1
-Device2
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device;SharedAccessKey=
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device1;SharedAccessKey=
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device2;SharedAccessKey=

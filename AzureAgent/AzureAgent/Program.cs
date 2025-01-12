@@ -1,9 +1,11 @@
 ﻿using Microsoft.Azure.Devices;
+using Microsoft.Rest;
 using Opc.UaFx;
 using Opc.UaFx.Client;
 using ServiceSDK.Lib;
 using ServiceSdkDemo.Console;
-
+using Microsoft.Azure.Devices.Client;
+using TransportType = Microsoft.Azure.Devices.Client.TransportType;
 
 string filePath = "../../../../settings.txt";
 string opcServerAddress = string.Empty;
@@ -13,7 +15,9 @@ try
 {
     string[] lines = File.ReadAllLines(filePath);
     List<string> devices = new List<string>();
-    devices.Add("d0");
+    List<string> connectionStrings = new List<string>();
+    devices.Add("0");
+    connectionStrings.Add("0");
 
     int j = 0;
     for (int i = 0; i < lines.Length; i++)
@@ -33,25 +37,29 @@ try
                 connectionString = lines[i + 1].Trim();
             }
         }
-        
-        if (lines[i].Trim() == "devices:" )
-        {
-            for (int k=i+1; k < lines.Length; k++)
+
+        if (lines[i].Trim() == "devices:")
+        { 
+            for (int k = i+1; k < lines.Length; k++)
             {
-                j++;
-                string deviceId = lines[k].Trim();
-                devices.Add(deviceId);
-                Console.WriteLine($"{j}: {deviceId}");
+                if (lines[k].Trim().StartsWith("HostName="))
+                {
+                    string line = lines[k].Trim();
+                    j++;
+                    connectionStrings.Add(lines[k]);
+                    string deviceId = ExtractDeviceId(line);
+                    devices.Add(deviceId);
+                    Console.WriteLine($"{j}: {deviceId}");
+                }
             }
-           
         }
     }
     
         int id = 1;
         Console.WriteLine("Choose device number:");
         id = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine($"Connection string: {connectionString}");
-    Console.WriteLine($"Connection string: {devices[id]}");
+   // Console.WriteLine($"Connection string: {connectionString}");
+   // Console.WriteLine($"DeviceId: {devices[id]}");
     string selectedDeviceId = (devices[id]);
         using var serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
         using var registryManager = RegistryManager.CreateFromConnectionString(connectionString);
@@ -60,21 +68,46 @@ try
         using var opcClient = new OpcClient($"{opcServerAddress}");
         opcClient.Connect();
         Console.WriteLine("Connected to OPC server.");
-
         int input;
-        do
+
+    string deviceClientConnectionString = connectionStrings[id];
+    // Console.WriteLine($"Connection string: {deviceClientConnectionString}");
+    using var deviceClient = DeviceClient.CreateFromConnectionString(deviceClientConnectionString, TransportType.Mqtt);
+    await deviceClient.OpenAsync();
+
+    do
         {
             FeatureSelector.PrintMenu();
             input = FeatureSelector.ReadInput();
-            await FeatureSelector.Execute(input, manager, selectedDeviceId, id);
+            await FeatureSelector.Execute(input, manager, selectedDeviceId, id, deviceClient);
         } while (input != 0);
 
-    }
+   
+}
 
 
 catch (Exception ex)
 {
     Console.WriteLine($"An error occurred: {ex.Message}");
+}
+static string ExtractDeviceId(string line)
+{
+    string deviceId = string.Empty;
+
+    // Split the line into parts by semicolon
+    string[] parts = line.Split(';');
+
+    // Look for the part starting with "DeviceId="
+    foreach (string part in parts)
+    {
+        if (part.StartsWith("DeviceId="))
+        {
+            deviceId = part.Substring("DeviceId=".Length);
+            break;
+        }
+    }
+
+    return deviceId;
 }
 
 

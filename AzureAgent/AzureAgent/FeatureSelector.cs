@@ -1,8 +1,13 @@
 ﻿using Microsoft.Azure.Devices;
+using Microsoft.Azure.Devices.Client;
 using Microsoft.Azure.Devices.Common.Exceptions;
+using Microsoft.Rest;
+using Newtonsoft.Json;
 using Opc.UaFx;
 using Opc.UaFx.Client;
 using System;
+using System.Text;
+using Microsoft.Azure.Devices.Shared;
 
 namespace ServiceSdkDemo.Console
 {
@@ -20,7 +25,7 @@ namespace ServiceSdkDemo.Console
     0 - Exit");
         }
 
-        public static async Task Execute(int feature, ServiceSDK.Lib.IoTHubManager manager, string deviceId,int id)
+        public static async Task Execute(int feature, ServiceSDK.Lib.IoTHubManager manager, string deviceId,int id, DeviceClient deviceClient)
         {
             switch (feature)
             {
@@ -80,14 +85,20 @@ namespace ServiceSdkDemo.Console
                             new OpcReadNode($"ns=2;s={deviceNumber}/BadCount"),
                             new OpcReadNode($"ns=2;s={deviceNumber}/DeviceError"),
 };
-
+                            var data = new System.Dynamic.ExpandoObject() as dynamic;
                             IEnumerable<OpcValue> attributeResults = client.ReadNodes(nodeAttributes);
                             IEnumerable<OpcValue> valueResults = client.ReadNodes(nodeValues);
                             var combinedResults = attributeResults.Zip(valueResults, (attribute, value) => new { Attribute = attribute.Value, Value = value.Value });
                             foreach (var item in combinedResults)
                             {
-                                System.Console.WriteLine($"{item.Attribute}: {item.Value}");
+                                ((IDictionary<string, object>)data)[item.Attribute.ToString()] = item.Value;
                             }
+
+                            foreach (var prop in (IDictionary<string, object>)data)
+                            {
+                                System.Console.WriteLine($"{prop.Key}: {prop.Value}");
+                            }
+                            await SendTelemetryData(deviceClient, data);
                         }
                     }
                     break;
@@ -105,6 +116,19 @@ namespace ServiceSdkDemo.Console
                     break;
             }
         }
+
+        public static async Task SendTelemetryData(DeviceClient client, dynamic data)
+        {
+            System.Console.WriteLine("Device sending telemetry data to IoT Hub...");
+            var dataString = JsonConvert.SerializeObject(data);
+            Microsoft.Azure.Devices.Client.Message eventMessage = new Microsoft.Azure.Devices.Client.Message(Encoding.UTF8.GetBytes(dataString))
+            {
+                ContentType = "application/json",
+                ContentEncoding = "utf-8"
+            };
+            await client.SendEventAsync(eventMessage);
+        }
+
         private static void RestartProgram()
         {
             string fileName = System.Diagnostics.Process.GetCurrentProcess().MainModule?.FileName;
