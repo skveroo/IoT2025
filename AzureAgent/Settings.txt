@@ -2,9 +2,9 @@ server addres:
 opc.tcp://localhost:4840/
 
 device connection string:
-HostName=ProjektIoT25.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=
+HostName=ProjektIoT25.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=OkdZqG6dcNVS2kKz/C+S+a8v75Wiqk9goAIoTDrLd6Q=
 
 devices:
-HostName=ProjektIoT25.azure-devices.net;DeviceId=Device;SharedAccessKey=
-HostName=ProjektIoT25.azure-devices.net;DeviceId=Device1;SharedAccessKey=
-HostName=ProjektIoT25.azure-devices.net;DeviceId=Device2;SharedAccessKey=
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device2;SharedAccessKey=xJ+CCCFACDudfvEGQiyguHeF0qAKCgPP5+SI1M30EuQ=
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device1;SharedAccessKey=x378rnNY8XkfgerZlwY930uBmJJ7BXuomADWp09weTI=
+HostName=ProjektIoT25.azure-devices.net;DeviceId=Device;SharedAccessKey=VTdNG6uPs7T2GVStT9u4C+g2Plg4vFGtzv0w+PWsw5o=

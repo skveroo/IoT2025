@@ -1,99 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj": {}
+    "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj": {}
   },
   "projects": {
-    "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj": {
+    "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
+        "projectUniqueName": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
         "projectName": "AzureAgent.console",
-        "projectPath": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
+        "projectPath": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
         "packagesPath": "C:\\Users\\Maciej\\.nuget\\packages\\",
-        "outputPath": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Maciej\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {
-                "projectPath": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.Azure.Devices": {
-              "target": "Package",
-              "version": "[1.40.0, )"
-            },
-            "Microsoft.Azure.Devices.Client": {
-              "target": "Package",
-              "version": "[1.42.3, )"
-            },
-            "Opc.UaFx.Client": {
-              "target": "Package",
-              "version": "[2.42.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
-        "projectName": "ServiceSDK.Lib",
-        "projectPath": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\ServiceSDK.Lib.csproj",
-        "packagesPath": "C:\\Users\\Maciej\\.nuget\\packages\\",
-        "outputPath": "C:\\Clones\\IoT2025\\AzureAgent\\ServiceSDK.Lib\\obj\\",
+        "outputPath": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -124,16 +42,25 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.23.0, )"
+            },
             "Microsoft.Azure.Devices": {
               "target": "Package",
               "version": "[1.40.0, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.42.3, )"
             },
             "Opc.UaFx.Client": {
               "target": "Package",
@@ -156,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

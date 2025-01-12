@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zTv8QJaWrQs=",
+  "dgSpecHash": "NLJ8PnoBzA8=",
   "success": true,
-  "projectFilePath": "C:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
+  "projectFilePath": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\AzureAgent.console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maciej\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
-    "C:\\Users\\Maciej\\.nuget\\packages\\azure.storage.blobs\\12.19.1\\azure.storage.blobs.12.19.1.nupkg.sha512",
-    "C:\\Users\\Maciej\\.nuget\\packages\\azure.storage.common\\12.18.1\\azure.storage.common.12.18.1.nupkg.sha512",
+    "C:\\Users\\Maciej\\.nuget\\packages\\azure.storage.blobs\\12.23.0\\azure.storage.blobs.12.23.0.nupkg.sha512",
+    "C:\\Users\\Maciej\\.nuget\\packages\\azure.storage.common\\12.22.0\\azure.storage.common.12.22.0.nupkg.sha512",
     "C:\\Users\\Maciej\\.nuget\\packages\\dotnetty.buffers\\0.7.6\\dotnetty.buffers.0.7.6.nupkg.sha512",
     "C:\\Users\\Maciej\\.nuget\\packages\\dotnetty.codecs\\0.7.6\\dotnetty.codecs.0.7.6.nupkg.sha512",
     "C:\\Users\\Maciej\\.nuget\\packages\\dotnetty.codecs.mqtt\\0.7.6\\dotnetty.codecs.mqtt.0.7.6.nupkg.sha512",

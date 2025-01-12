@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "ServiceSDK.Lib/1.0.0": {
         "dependencies": {
+          "Azure.Storage.Blobs": "12.23.0",
           "Microsoft.Azure.Devices": "1.40.0",
+          "Microsoft.Azure.Devices.Client": "1.42.3",
           "Opc.UaFx.Client": "2.42.5"
         },
         "runtime": {
@@ -30,6 +32,108 @@
           "lib/net6.0/Azure.Core.dll": {
             "assemblyVersion": "1.44.1.0",
             "fileVersion": "1.4400.124.50905"
+          }
+        }
+      },
+      "Azure.Storage.Blobs/12.23.0": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.22.0",
+          "System.Text.Json": "6.0.10"
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.23.0.0",
+            "fileVersion": "12.2300.24.56203"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.22.0": {
+        "dependencies": {
+          "Azure.Core": "1.44.1",
+          "System.IO.Hashing": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.22.0.0",
+            "fileVersion": "12.2200.24.56203"
+          }
+        }
+      },
+      "DotNetty.Buffers/0.7.6": {
+        "dependencies": {
+          "DotNetty.Common": "0.7.6",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Buffers.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
+      "DotNetty.Codecs/0.7.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6",
+          "System.Collections.Immutable": "1.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Codecs.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
+      "DotNetty.Codecs.Mqtt/0.7.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Codecs": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Codecs.Mqtt.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
+      "DotNetty.Common/0.7.6": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Common.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
+      "DotNetty.Handlers/0.7.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Codecs": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Transport": "0.7.6"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Handlers.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
+          }
+        }
+      },
+      "DotNetty.Transport/0.7.6": {
+        "dependencies": {
+          "DotNetty.Buffers": "0.7.6",
+          "DotNetty.Common": "0.7.6"
+        },
+        "runtime": {
+          "lib/net6.0/DotNetty.Transport.dll": {
+            "assemblyVersion": "0.7.6.0",
+            "fileVersion": "0.7.6.0"
           }
         }
       },
@@ -58,6 +162,25 @@
           }
         }
       },
+      "Microsoft.Azure.Devices.Client/1.42.3": {
+        "dependencies": {
+          "Azure.Storage.Blobs": "12.23.0",
+          "DotNetty.Codecs.Mqtt": "0.7.6",
+          "DotNetty.Common": "0.7.6",
+          "DotNetty.Handlers": "0.7.6",
+          "Microsoft.Azure.Amqp": "2.6.9",
+          "Microsoft.Azure.Devices.Shared": "1.30.4",
+          "Microsoft.Win32.Registry": "4.7.0",
+          "Newtonsoft.Json": "13.0.3",
+          "System.Configuration.ConfigurationManager": "4.4.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Azure.Devices.Client.dll": {
+            "assemblyVersion": "1.42.3.0",
+            "fileVersion": "1.42.3.0"
+          }
+        }
+      },
       "Microsoft.Azure.Devices.Shared/1.30.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -79,6 +202,67 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Rest.ClientRuntime/2.3.24": {
@@ -162,6 +346,18 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Configuration.ConfigurationManager/4.4.1": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25921.2"
+          }
+        }
+      },
       "System.Diagnostics.Contracts/4.3.0": {
         "dependencies": {
           "System.Runtime": "4.3.0"
@@ -212,6 +408,14 @@
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.IO.Hashing/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
         }
       },
       "System.Management/4.7.0": {
@@ -314,6 +518,22 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Security.Principal.Windows/4.7.0": {},
       "System.ServiceModel.Primitives/4.5.3": {
         "dependencies": {
@@ -383,6 +603,62 @@
       "path": "azure.core/1.44.1",
       "hashPath": "azure.core.1.44.1.nupkg.sha512"
     },
+    "Azure.Storage.Blobs/12.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wokJ5KX/iViQQ32xyCu69+Ter0aR4B9QQ+oR9NCpc/WPIanxnDErrmFfdmE7K8ZdccjHkvE/wEnqJxaF1+5wFg==",
+      "path": "azure.storage.blobs/12.23.0",
+      "hashPath": "azure.storage.blobs.12.23.0.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0Vm30bRpQ0fcswB0xQMhKAOSXnRygnF2f/029uPaIDLaj1/yfX4jmU0fFjJe9ojGEj/vlAmsApCEOyL9if6zHg==",
+      "path": "azure.storage.common/12.22.0",
+      "hashPath": "azure.storage.common.12.22.0.nupkg.sha512"
+    },
+    "DotNetty.Buffers/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JVYypDugRG4m3hbS0drCC79vX93zqjn5w+U4ti/KXjTIzcQ/UVHrCgs7ZgJfWRUQLfgfQB0daYQtE18lKD8pHg==",
+      "path": "dotnetty.buffers/0.7.6",
+      "hashPath": "dotnetty.buffers.0.7.6.nupkg.sha512"
+    },
+    "DotNetty.Codecs/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XBZy/m3+V8PBUHHHbFKaRBE0+knTCitcE8oKCQn4jZybH25mCZ1vTwj3BRuPYdNpzh74Op32Hj4ZXF+DMx/oAg==",
+      "path": "dotnetty.codecs/0.7.6",
+      "hashPath": "dotnetty.codecs.0.7.6.nupkg.sha512"
+    },
+    "DotNetty.Codecs.Mqtt/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jVynN2g/HXPlaT+zZwdJENaB0Aw28iV7ZvttAXy0i1ST7MB3olKxTTy5tq2QuI4z4wFzMHx/+15znq06AcyIAw==",
+      "path": "dotnetty.codecs.mqtt/0.7.6",
+      "hashPath": "dotnetty.codecs.mqtt.0.7.6.nupkg.sha512"
+    },
+    "DotNetty.Common/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmK8Njfh2Y4qnz99lLK0evoc46FPL5WOnHMLlavNZ6zqC5/bKgqGsJFoXbhVPkSYDp58g2euI64dhY0cvOUOZQ==",
+      "path": "dotnetty.common/0.7.6",
+      "hashPath": "dotnetty.common.0.7.6.nupkg.sha512"
+    },
+    "DotNetty.Handlers/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6sSMp0Md8DbpyOAV9IjiR30uzaLrxAbJTcwFFpMJM1+EJhvPz6Ywt0RqoV6+lseq6zqBjMq2jbPTKcqPoqNYIA==",
+      "path": "dotnetty.handlers/0.7.6",
+      "hashPath": "dotnetty.handlers.0.7.6.nupkg.sha512"
+    },
+    "DotNetty.Transport/0.7.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EVQ5FihFPdWmw7v6l/4iyMepj49vZT11kWQNJ0ApC4KzkdJJ6LM/7NDUgghyxbO0e25nfQRtkGLP5EZAEo7QDA==",
+      "path": "dotnetty.transport/0.7.6",
+      "hashPath": "dotnetty.transport.0.7.6.nupkg.sha512"
+    },
     "Microsoft.Azure.Amqp/2.6.9": {
       "type": "package",
       "serviceable": true,
@@ -396,6 +672,13 @@
       "sha512": "sha512-O1ZTJIv+ns/llFM/3DRyFVBcgFzNl0HEB6Q88qpjOq5f4UvL+kQvTv56YWa33KJ4SQyqXkz09RwLwj2Pf6s6uA==",
       "path": "microsoft.azure.devices/1.40.0",
       "hashPath": "microsoft.azure.devices.1.40.0.nupkg.sha512"
+    },
+    "Microsoft.Azure.Devices.Client/1.42.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U0u26o1Bc/h+Qq3AHek82BfUabkPie3eWtCqHFxDT9y0TIm/ZkdX2nNRYqkdfjexQEewUJXetfDRXKxR9gXY4g==",
+      "path": "microsoft.azure.devices.client/1.42.3",
+      "hashPath": "microsoft.azure.devices.client.1.42.3.nupkg.sha512"
     },
     "Microsoft.Azure.Devices.Shared/1.30.4": {
       "type": "package",
@@ -417,6 +700,48 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "hashPath": "microsoft.extensions.logging.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "path": "microsoft.extensions.options/5.0.0",
+      "hashPath": "microsoft.extensions.options.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -495,6 +820,20 @@
       "path": "system.collections/4.3.0",
       "hashPath": "system.collections.4.3.0.nupkg.sha512"
     },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jz3TWKMAeuDEyrPCK5Jyt4bzQcmzUIMcY9Ud6PkElFxTfnsihV+9N/UCqvxe1z5gc7jMYAnj7V1COMS9QKIuHQ==",
+      "path": "system.configuration.configurationmanager/4.4.1",
+      "hashPath": "system.configuration.configurationmanager.4.4.1.nupkg.sha512"
+    },
     "System.Diagnostics.Contracts/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -536,6 +875,13 @@
       "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.IO.Hashing/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rfm2jYCaUeGysFEZjDe7j1R4x6Z6BzumS/vUT5a1AA/AWJuGX71PoGB0RmpyX3VmrGqVnAwtfMn39OHR8Y/5+g==",
+      "path": "system.io.hashing/6.0.0",
+      "hashPath": "system.io.hashing.6.0.0.nupkg.sha512"
     },
     "System.Management/4.7.0": {
       "type": "package",
@@ -620,6 +966,13 @@
       "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
       "path": "system.security.accesscontrol/4.7.0",
       "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     },
     "System.Security.Principal.Windows/4.7.0": {
       "type": "package",
