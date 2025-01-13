@@ -13,6 +13,7 @@ using System.Net.Sockets;
 using Opc.Ua;
 using System.Runtime.Intrinsics.Arm;
 using ServiceSDK.Lib;
+using Microsoft.Azure.Amqp.Framing;
 enum Errors
 {
     EmergencyStop = 1,
@@ -25,85 +26,10 @@ namespace ServiceSdkDemo.Console
 {
     internal static class FeatureSelector
     {
-        public static bool twinInitialized = false;
-        public static void PrintMenu()
-        {
-            System.Console.WriteLine(@"
-    1 - C2D
-    2 - Direct Method
-    3 - Device Twin
-    4 - Display Telemetry Data
-    5 - Disconnect from device
-    0 - Exit");
-        }
-
-        public static async Task Execute(int feature, ServiceSDK.Lib.IoTHubManager manager, string deviceId, int id, DeviceClient deviceClient)
-        {
-            var client = new OpcClient("opc.tcp://localhost:4840/");
-            client.Connect();
-
-            
-           
-           
-            switch (feature)
-            {
-                case 1:
-                    {
-                        System.Console.WriteLine("\nType your message (confirm with enter):");
-                        System.Console.WriteLine($"{deviceId}");
-                        string messageText = System.Console.ReadLine() ?? string.Empty;
-                        await manager.SendMessage(messageText, deviceId);
-                        System.Console.WriteLine("Message sent!");
-                    }
-                    break;
-                case 2:
-                    {
-                        try
-                        {
-                            var result = await manager.ExecuteDeviceMethod("SendMessages", deviceId);
-                            System.Console.WriteLine($"Method executed with status {result}");
-                        }
-                        catch (DeviceNotFoundException)
-                        {
-                            System.Console.WriteLine("Device not connected!");
-                        }
-                    }
-                    break;
-                case 3:
-                    {
-                        await updateTwinData(deviceClient, client, id);
-                        await manager.SetDesiredProductionRate(50, deviceId);
-                    }
-                    break;
-                case 4:
-                    {
-                        displayTelemetry(id, client);
-                        var data = new System.Dynamic.ExpandoObject() as dynamic;
-                        await SendTelemetryData(deviceClient, data);
-
-                    }
-                    break;
-                case 5:
-                    {
-
-                        System.Console.WriteLine("\nDisconnecting...");
-                        await Task.Delay(2000);
-                        System.Console.Clear();
-                        await manager.Disconnect();
-                        RestartProgram();
-                    }
-                    break;
-                default:
-                    break;
-            }
-
-
-
-        }
-
+        public static bool Initialized = false;
+        public static string ExistingError = string.Empty;
         public static async Task SendTelemetryData(DeviceClient client, dynamic data)
         {
-            System.Console.WriteLine("Device sending telemetry data to IoT Hub...");
             var dataString = JsonConvert.SerializeObject(data);
             Microsoft.Azure.Devices.Client.Message eventMessage = new Microsoft.Azure.Devices.Client.Message(Encoding.UTF8.GetBytes(dataString))
             {
@@ -112,7 +38,6 @@ namespace ServiceSdkDemo.Console
             };
             await client.SendEventAsync(eventMessage);
         }
-
 
         private static void RestartProgram()
         {
@@ -148,28 +73,16 @@ namespace ServiceSdkDemo.Console
             }
         }
 
-        internal static int ReadInput()
+        public static async Task updateTwinData(DeviceClient deviceClient, OpcClient client)
         {
-            var keyPressed = System.Console.ReadKey();
-            var isParsed = int.TryParse(keyPressed.KeyChar.ToString(), out int result);
-            return isParsed ? result : -1;
-        }
-
-        public static async Task updateTwinData(DeviceClient deviceClient, OpcClient client, int id)
-        {
-            var twin = await deviceClient.GetTwinAsync();
-            if (!twinInitialized)
-            {
-                await updateTwinError(errorDetection(client, id), deviceClient);
-                await updateTwinProductionValues(getProductionRate(client, id), deviceClient);
-                twinInitialized = true;
-            }
+                var twin = await deviceClient.GetTwinAsync();
+                await updateTwinError(errorDetection(client, Program.id), deviceClient);
+                await updateTwinProductionValues(getProductionRate(client, Program.id), deviceClient);
         }
         public static async Task updateTwinError(string deviceErrors, DeviceClient deviceClient)
         {
             var reportedDeviceTwin = new TwinCollection();
             reportedDeviceTwin["deviceErrors"] = deviceErrors;
-            reportedDeviceTwin["lastErrorDate"] = DateTime.Today;
             await deviceClient.UpdateReportedPropertiesAsync(reportedDeviceTwin);
         }
         public static async Task updateTwinProductionValues(int reportedProduction, DeviceClient deviceClient)
@@ -209,9 +122,9 @@ namespace ServiceSdkDemo.Console
             int productionRate = (int)client.ReadNode($"ns=2;s=Device {id}/ProductionRate").Value;
             return productionRate;
         }
-        private static void displayTelemetry(int id, OpcClient client)
+        private static void displayTelemetry(OpcClient client, DeviceClient deviceClient)
             {
-                            string deviceNumber = $"Device {id}";
+                            string deviceNumber = $"Device {Program.id}";
                             System.Console.WriteLine();
                             OpcReadNode[] nodeAttributes = new OpcReadNode[] {
                             new OpcReadNode($"ns=2;s={deviceNumber}/ProductionStatus", OpcAttribute.DisplayName),
@@ -239,12 +152,48 @@ namespace ServiceSdkDemo.Console
                             {
                                 ((IDictionary<string, object>) data)[item.Attribute.ToString()] = item.Value;
                             }
+                        
+                            ((IDictionary<string, object>)data)["DeviceId"] = Program.selectedDeviceId;
 
-                            foreach (var prop in (IDictionary<string, object>) data)
+                             foreach (var prop in (IDictionary<string, object>) data)
                             {
                                 System.Console.WriteLine($"{prop.Key}: {prop.Value}");
                             }
+                            SendTelemetryData(deviceClient, data);
+        }
+
+
+        
+
+        public static async Task update(DeviceClient deviceClient, OpcClient client, ServiceSDK.Lib.IoTHubManager manager)
+        {
+            client.Connect();
+          
+            if (!Initialized)
+            {
+                displayTelemetry(client, deviceClient);
+                await manager.CreateDesiredProductionRate(20);
+                await manager.SetDesiredProductionRate();
+                await updateTwinData(deviceClient, client);
+                Initialized = true;
             }
+
+            displayTelemetry(client, deviceClient);
+            updateTwinData(deviceClient, client);
+            string error = errorDetection(client, Program.id);
+           
+            if (error != string.Empty && error!= ExistingError)
+            {
+                ExistingError = error;
+                var dataString = JsonConvert.SerializeObject(error);
+                Microsoft.Azure.Devices.Client.Message eventMessage = new Microsoft.Azure.Devices.Client.Message(Encoding.UTF8.GetBytes(dataString))
+                {
+                    ContentType = "application/json",
+                    ContentEncoding = "utf-8"
+                };
+                await deviceClient.SendEventAsync(eventMessage);
+            }
+        }
     }
     public class device
     {
@@ -264,6 +213,17 @@ namespace ServiceSdkDemo.Console
             await EmergencyStop();
             return new MethodResponse(0);
         }
+        async Task ResetErrorStatus()
+        {
+            IoTHubManager.ResetErrorStatus();
+            await (Task.Delay(1000));
+        }
+        private async Task<MethodResponse> ResetErrorStatusHandler(MethodRequest methodRequest, object userContext)
+        {
+            System.Console.WriteLine($"\tMETHOD EXECUTED: {methodRequest.Name}");
+            await ResetErrorStatus();
+            return new MethodResponse(0);
+        }
         private static async Task<MethodResponse> DefaultServiceHandler(MethodRequest methodRequest, object userContext)
         {
             System.Console.WriteLine($"\tMETHOD EXECUTED: {methodRequest.Name}");
@@ -271,10 +231,12 @@ namespace ServiceSdkDemo.Console
 
             return new MethodResponse(0);
         }
+
         public async Task InitializeHandlers()
         {
             await deviceClient.SetMethodDefaultHandlerAsync(DefaultServiceHandler, null);
             await deviceClient.SetMethodHandlerAsync("EmergencyStop", EmergencyStopHandler, null);
+            await deviceClient.SetMethodHandlerAsync("ResetErrorStatus", ResetErrorStatusHandler, null);
         }
     }
 }

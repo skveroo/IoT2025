@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.Devices;
@@ -16,51 +17,14 @@ namespace ServiceSDK.Lib
     public class IoTHubManager
     {
         private readonly ServiceClient client;
+
         private readonly RegistryManager registry;
         public static OpcClient OPCclient = new OpcClient(File.ReadAllLines($"../../../../settings.txt")[1]);
+        
         public IoTHubManager(ServiceClient client, RegistryManager registry)
         {
             this.client = client;
             this.registry = registry;
-        }
-
-        public async Task SendMessage(string messageText, string deviceId)
-        {
-            var messageBody = new { text = messageText };
-            var message = new Message(Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(messageBody)));
-            message.MessageId = Guid.NewGuid().ToString();
-            await client.SendAsync(deviceId, message);
-        }
-
-        public async Task<int> ExecuteDeviceMethod(string methodName, string deviceId)
-        {
-            var method = new CloudToDeviceMethod(methodName);
-
-            var methodBody = new { nrOfMessages = 5, delay = 500 };
-            method.SetPayloadJson(JsonConvert.SerializeObject(methodBody));
-
-            var result = await client.InvokeDeviceMethodAsync(deviceId, method);
-            return result.Status;
-        }
-
-        public async Task<int> ExecuteDeviceMethod2(int desired, string deviceId)
-        {
-            var method = new CloudToDeviceMethod("SetDesiredProductionRate");
-
-            var methodBody = new { desiredNumber = desired, delay = 500 };
-            method.SetPayloadJson(JsonConvert.SerializeObject(methodBody));
-
-            var result = await client.InvokeDeviceMethodAsync(deviceId, method);
-            return result.Status;
-        }
-
-
-
-        public async Task UpdateDesiredTwin(string deviceId, string propertyName, dynamic propertyValue)
-        {
-            var twin = await registry.GetTwinAsync(deviceId);
-            twin.Properties.Desired[propertyName] = propertyValue;
-            await registry.UpdateTwinAsync(twin.DeviceId, twin, twin.ETag);
         }
         public async Task Disconnect()
         {
@@ -75,13 +39,11 @@ namespace ServiceSDK.Lib
                 await registry.CloseAsync();
                 registry.Dispose();
 
-                Console.WriteLine("Disconnected from IoT Hub.");
             }
         }
-        public async Task SetDesiredProductionRate(int DPR, string deviceId)
+        public async Task CreateDesiredProductionRate(int DPR)
         {
-            var twin = await registry.GetTwinAsync(deviceId);
-           
+            var twin = await registry.GetTwinAsync(Program.selectedDeviceId);
             var patch = new
             {
                 properties = new
@@ -92,19 +54,35 @@ namespace ServiceSDK.Lib
                     }
                 }
             };
-            await registry.UpdateTwinAsync(deviceId, JsonConvert.SerializeObject(patch), twin.ETag);
+            await registry.UpdateTwinAsync(Program.selectedDeviceId, JsonConvert.SerializeObject(patch), twin.ETag);
         }
         public static async Task EmergencyStop()
         {
+            OPCclient.Connect();
             Console.WriteLine($"Device {Program.selectedDeviceId} shutting down ...");
-            OPCclient.CallMethod($"ns=2;s=Device {Program.selectedDeviceId}", $"ns=2;s=Device {Program.selectedDeviceId}/EmergencyStop");
-            OPCclient.WriteNode($"ns=2;s=Device {Program.selectedDeviceId}/ProductionRate", OpcAttribute.Value, 0);
+            OPCclient.CallMethod($"ns=2;s=Device {Program.id}", $"ns=2;s=Device {Program.id}/EmergencyStop");
+            OPCclient.WriteNode($"ns=2;s=Device {Program.id}/ProductionRate", OpcAttribute.Value, 0);
             await Task.Delay(1000);
+            OPCclient.Disconnect();
         }
-
-        public static async Task ResetErrorStatus(string deviceId, OpcClient client)
+        public static async Task ResetErrorStatus()
         {
-            client.CallMethod($"ns=2;s=Device {deviceId}", $"ns=2;s=Device {deviceId}/ResetErrorStatus");
+            OPCclient.Connect();
+            OPCclient.CallMethod($"ns=2;s=Device {Program.id}", $"ns=2;s=Device {Program.id}/ResetErrorStatus");
+            await Task.Delay(1000);
+            OPCclient.Disconnect();
+        }
+        public async Task SetDesiredProductionRate()
+        {
+            OPCclient.Connect();
+            var twin = await registry.GetTwinAsync(Program.selectedDeviceId);
+            var desiredProductionRate = 0; 
+            if (twin.Properties.Desired.Contains("desiredProduction"))
+            {
+                desiredProductionRate = twin.Properties.Desired["desiredProduction"].ToObject<int>();
+            }
+
+            OPCclient.WriteNode($"ns=2;s=Device {Program.id}/ProductionRate", OpcAttribute.Value, desiredProductionRate);
             await Task.Delay(1000);
         }
 

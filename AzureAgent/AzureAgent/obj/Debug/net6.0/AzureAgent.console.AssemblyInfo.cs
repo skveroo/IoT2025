@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureAgent.console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c52707fe0a4576aafee9108e7962652f9999aef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4cd1684a9810402139265faf1da41435e9bca990")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureAgent.console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureAgent.console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

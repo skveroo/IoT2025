@@ -10,16 +10,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using Microsoft.VisualBasic;
 
 public class Program
 {
     public static string selectedDeviceId;
+    public static int id;
     public static async Task Main(string[] args)
     {
         string filePath = "../../../../settings.txt";
         string opcServerAddress = (File.ReadAllLines($"../../../../settings.txt")[1]);
-        string connectionString = string.Empty;
-        Console.WriteLine("Found devices:");
+        string connectionString = (File.ReadAllLines($"../../../../settings.txt")[4]);
+    Console.WriteLine("Found devices:");
 
         try
         {
@@ -32,14 +34,6 @@ public class Program
             int j = 0;
             for (int i = 0; i < lines.Length; i++)
             {
-                if (lines[i].Trim() == "device connection string:")
-                {
-                    if (i + 1 < lines.Length)
-                    {
-                        connectionString = lines[i + 1].Trim();
-                    }
-                }
-
                 if (lines[i].Trim() == "devices:")
                 {
                     for (int k = i + 1; k < lines.Length; k++)
@@ -57,13 +51,13 @@ public class Program
                 }
             }
 
-            int id = 1;
+            id = 1;
             Console.WriteLine($"Selected Device ID: {opcServerAddress}");
             Console.WriteLine("Choose device number:");
             id = Convert.ToInt32(Console.ReadLine());
             selectedDeviceId = devices[id];
-            Console.WriteLine($"Selected Device ID: {selectedDeviceId}");
 
+            Console.WriteLine($"Selected Device string: {connectionString}");
             using var serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
             using var registryManager = RegistryManager.CreateFromConnectionString(connectionString);
 
@@ -73,18 +67,21 @@ public class Program
             Console.WriteLine("Connected to OPC server.");
 
             string deviceClientConnectionString = connectionStrings[id];
+     
             using var deviceClient = DeviceClient.CreateFromConnectionString(deviceClientConnectionString, TransportType.Mqtt);
             await deviceClient.OpenAsync();
 
             int input;   
             var device = new device(deviceClient);
             await device.InitializeHandlers();
-            do
+
+            var periodicTimer = new PeriodicTimer(TimeSpan.FromSeconds(10));
+            while (await periodicTimer.WaitForNextTickAsync())
             {
-                FeatureSelector.PrintMenu();
-                input = FeatureSelector.ReadInput();
-                await FeatureSelector.Execute(input, manager, selectedDeviceId, id, deviceClient);
-            } while (input != 0);
+                await FeatureSelector.update(deviceClient, opcClient,manager);
+            }
+
+           
         }
         catch (Exception ex)
         {
