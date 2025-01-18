@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Clones\\IoT2025\\AzureAgent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\featureselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "AzureAgent\\IoTHubMenager.cs",
               "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\IoTHubMenager.cs",
               "RelativeToolTip": "AzureAgent\\IoTHubMenager.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T22:00:15.491Z",
               "EditorCaption": ""
@@ -40,12 +40,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FeatureSelector.cs",
-              "DocumentMoniker": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
-              "RelativeDocumentMoniker": "AzureAgent\\FeatureSelector.cs",
-              "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\FeatureSelector.cs",
-              "RelativeToolTip": "AzureAgent\\FeatureSelector.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAA4wJoAAAAXAAAAAAAAAA==",
+              "Title": "device.cs",
+              "DocumentMoniker": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\device.cs",
+              "RelativeDocumentMoniker": "AzureAgent\\device.cs",
+              "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\device.cs",
+              "RelativeToolTip": "AzureAgent\\device.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwKsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:43:11.884Z",
               "EditorCaption": ""
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "AzureAgent\\Program.cs",
               "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\Program.cs",
               "RelativeToolTip": "AzureAgent\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:07:54.824Z",
               "EditorCaption": ""

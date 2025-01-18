@@ -16,6 +16,8 @@ public class Program
 {
     public static string selectedDeviceId;
     public static int id;
+    public static string deviceClientConnectionString;
+
     public static async Task Main(string[] args)
     {
         string filePath = "../../../../settings.txt";
@@ -28,6 +30,7 @@ public class Program
             string[] lines = File.ReadAllLines(filePath);
             List<string> devices = new List<string>();
             List<string> connectionStrings = new List<string>();
+            // Addning 0 to lists for clarity when choosing device - no device 0
             devices.Add("0");
             connectionStrings.Add("0");
 
@@ -51,37 +54,30 @@ public class Program
                 }
             }
 
-            id = 1;
-            Console.WriteLine($"Selected Device ID: {opcServerAddress}");
+            id = 1; 
             Console.WriteLine("Choose device number:");
             id = Convert.ToInt32(Console.ReadLine());
             selectedDeviceId = devices[id];
-
-            Console.WriteLine($"Selected Device string: {connectionString}");
+           
             using var serviceClient = ServiceClient.CreateFromConnectionString(connectionString);
             using var registryManager = RegistryManager.CreateFromConnectionString(connectionString);
-
             var manager = new IoTHubManager(serviceClient, registryManager);
             using var opcClient = new OpcClient($"{opcServerAddress}");
+            
             opcClient.Connect();
             Console.WriteLine("Connected to OPC server.");
 
-            string deviceClientConnectionString = connectionStrings[id];
-     
+            deviceClientConnectionString = connectionStrings[id];
             using var deviceClient = DeviceClient.CreateFromConnectionString(deviceClientConnectionString, TransportType.Mqtt);
             await deviceClient.OpenAsync();
-
-            int input;   
             var device = new device(deviceClient);
             await device.InitializeHandlers();
 
             var periodicTimer = new PeriodicTimer(TimeSpan.FromSeconds(10));
             while (await periodicTimer.WaitForNextTickAsync())
             {
-                await FeatureSelector.update(deviceClient, opcClient,manager);
+                await device.update(deviceClient, opcClient,manager);
             }
-
-           
         }
         catch (Exception ex)
         {
