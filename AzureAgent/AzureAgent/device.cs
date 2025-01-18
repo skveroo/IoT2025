@@ -52,6 +52,7 @@ namespace ServiceSdkDemo.Console
             var twin = await deviceClient.GetTwinAsync();
             await updateTwinError(errorDetection(client), deviceClient);
             await updateTwinProductionValues(getProductionRate(client), deviceClient);
+            
         }
         public static async Task updateTwinError(string deviceErrors, DeviceClient deviceClient)
         {
@@ -92,7 +93,16 @@ namespace ServiceSdkDemo.Console
         private static int getProductionRate(OpcClient client)
         {
             int productionRate = (int)client.ReadNode($"ns=2;s=Device {Program.id}/ProductionRate").Value;
+            int productionStatus = (int)client.ReadNode($"ns=2;s=Device {Program.id}/ProductionStatus").Value;
+            if(productionStatus==1)
+            {
+                System.Console.WriteLine($"PS: {productionStatus}");
             return productionRate;
+            } else
+            {
+                System.Console.WriteLine($"PS: {productionStatus}");
+                return 0;
+            }
         }
         private static void displayTelemetry(OpcClient client, DeviceClient deviceClient)
         {

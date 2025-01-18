@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Clones\\IoT2025\\AzureAgent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|d:\\clones\\iot2025\\azureagent\\azureagent\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{833F633C-9952-4128-8DA3-368227066363}|AzureAgent\\AzureAgent.console.csproj|solutionrelative:azureagent\\iothubmenager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "IoTHubMenager.cs",
               "DocumentMoniker": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\IoTHubMenager.cs",
               "RelativeDocumentMoniker": "AzureAgent\\IoTHubMenager.cs",
               "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\IoTHubMenager.cs",
               "RelativeToolTip": "AzureAgent\\IoTHubMenager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAIwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T22:00:15.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "device.cs",
               "DocumentMoniker": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\device.cs",
               "RelativeDocumentMoniker": "AzureAgent\\device.cs",
               "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\device.cs",
               "RelativeToolTip": "AzureAgent\\device.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwKsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwFwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:43:11.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\Program.cs",
               "RelativeDocumentMoniker": "AzureAgent\\Program.cs",
               "ToolTip": "D:\\Clones\\IoT2025\\AzureAgent\\AzureAgent\\Program.cs",
               "RelativeToolTip": "AzureAgent\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwCQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T15:07:54.824Z",
               "EditorCaption": ""
