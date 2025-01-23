@@ -1,0 +1,68 @@
+/*
+Poniżej przedstawiono linki ułatwiające rozpoczęcie pracy z językiem zapytań usługi Stream Analytics:
+Typowe wzorce zapytań — https://go.microsoft.com/fwLink/?LinkID=619153
+Język zapytań — https://docs.microsoft.com/stream-analytics-query/query-language-elements-azure-stream-analytics
+*/
+
+SELECT 
+    DeviceId,((SUM(GoodCount) * 1.0 / (SUM(GoodCount) + SUM(BadCount))) * 100) AS percentage_good_production,
+    System.Timestamp AS window_end
+INTO 
+    [iot-production]
+FROM 
+    [ProjektIoT25A]
+GROUP BY 
+    DeviceId, TumblingWindow(minute, 5);
+
+       SELECT 
+    DeviceId,
+    AVG(temperature) AS avg_temperature,
+    MIN(temperature) AS min_temperature,
+    MAX(temperature) AS max_temperature,
+    System.Timestamp AS window_end
+INTO 
+    [iot-temperature]
+FROM 
+    [ProjektIoT25A]
+GROUP BY 
+    DeviceId, TumblingWindow(minute, 1);
+
+
+SELECT 
+    DeviceId,
+    SUM(DeviceError) AS total_error_value,
+    System.Timestamp AS window_end
+INTO 
+    [iot-errors]
+FROM 
+    [ProjektIoT25A]
+GROUP BY 
+    DeviceId, TumblingWindow(minute, 1)
+HAVING 
+    SUM(DeviceError) > 3;
+
+SELECT 
+    DeviceId,
+    ((SUM(GoodCount) * 1.0 / (SUM(GoodCount) + SUM(BadCount))) * 100) AS percentage_good_production,
+    System.Timestamp AS window_end
+INTO 
+    [iot-decrease]
+FROM 
+    [ProjektIoT25A]
+GROUP BY 
+    DeviceId, TumblingWindow(minute, 5)
+HAVING 
+    ((SUM(GoodCount) * 1.0 / (SUM(GoodCount) + SUM(BadCount))) * 100) < 90;
+
+SELECT 
+    DeviceId,
+    SUM(DeviceError) AS total_error_value,
+    System.Timestamp AS window_end
+INTO 
+    [iot-anyerror]
+FROM 
+    [ProjektIoT25A]
+GROUP BY 
+    DeviceId, TumblingWindow(minute, 1)
+HAVING 
+    SUM(DeviceError) > 0;
